@@ -1,3 +1,34 @@
 body{
-background-color: rgba (255. 155. 65. 0.5)
+background-color: blue;
+}
+.lol{
+  display: flex;
+  position: fixed;
+  border: solid 1px red;
+  top: 25vh;
+  right: 15px;
+  width: 4vw;
+  float: right;
+  top: 25vh;
+  right: 15px;
+
+}
+.barredenav{
+  list-style-type: none;
+margin: 0;
+padding: 0;
+}
+.lesboutons{
+border: solid 1px green;
+}
+.img{
+  width: 100%
+}
+@media (orientation: portrait) {
+.lol{
+  top: 25vh;
+  right: 15px;
+  width: 10vw;
+}
+
 }
