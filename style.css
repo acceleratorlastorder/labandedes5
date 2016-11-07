@@ -84,22 +84,14 @@ footer, footer ul {
 }
 
 footer ul, footer li {
-  box-sizing: border-box;
-  margin-left:;
   padding:0;
 }
-
 /*footer div{
   float:left;
   margin: 0;
   padding: 0;
 }*/
-
 footer {
-  position: absolute;
-  bottom: 0;
-  width: calc(100% - 16px);
-  border-radius: 8px 8px 0 0;
   background-color: #ccc;
   margin: 0;
 }
@@ -120,6 +112,12 @@ h3 {
   justify-content: space-around;
 }
 /*transition: .8s all .3s;*/
+
+body{
+margin: 0;
+background-color: rgba(255, 0, 0, 0.5);
+
+}
 .lol{
   position: fixed;
   border: solid 3px red;
