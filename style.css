@@ -2,7 +2,6 @@ body{
   background-color: rgba(41, 49, 49, 1);
 }
 .lol{
-  display: flex;
   position: fixed;
   border: solid 3px red;
   top: 25vh;
@@ -17,9 +16,6 @@ body{
   list-style-type: none;
 margin: 0;
 padding: 0;
-}
-.lesboutons{
-
 }
 .img{
   width: 100%
