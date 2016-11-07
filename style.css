@@ -1,3 +1,4 @@
+
 #menu, #menu ul{
 padding:0;
 margin:0;
@@ -7,7 +8,6 @@ text-align:center;
 #menu li{
 display:inline-block;
 position:relative;
-border-radius:8px 8px 0 0;
 }
 #menu ul li{
 display:inherit;
@@ -32,9 +32,7 @@ max-height:15em;
 }
 /* background des liens menus */
 #menu li{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+background-color: #2c3e50;
 }
 /* background des liens sous menus */
 #menu li li{
@@ -42,7 +40,8 @@ background:#2A2333;
 }
 /* background des liens menus et sous menus au survol */
 #menu li:hover, #menu li li:hover{
-background:#cccc88;
+background:#ccc;
+color: #2c3e50;
 }
 /* les a href */
 #menu a{
@@ -63,45 +62,29 @@ text-transform:inherit;
 color:#000;
 }
 /*f: */
-#menu>li:first-child {
-  float: left;
-  width: 35%;
-  border-radius:8px 0 0 0;
+#menu>li {
+  width: calc(98%/3);
+  margin:0;
+  padding: 0;
 }
-#menu>li:nth-child(1n+2) {
-  width: 22%;
+menu>li:hover {
 }
-#menu>li:nth-child(2){
-  border-radius: 0;
-}
-#menu>li:nth-child(3){
-  border-radius: 0 8px 0 0;
-  float: right;
-}
+
+/*footer*/
 footer, footer ul {
   list-style: none;
   color: #2c3e50;
 }
-
 footer ul, footer li {
+  box-sizing: border-box;
+  margin-left:;
   padding:0;
 }
-/*footer div{
-  float:left;
-  margin: 0;
-  padding: 0;
-}*/
 footer {
   background-color: #ccc;
   margin: 0;
 }
-
-nav {
-  border-radius:8px 8px 0 0;
-  background-color: #2c3e50;
-}
 h3 {
-  border-radius:8px 8px 0 0;
   text-align: center;
   background-color: #2c3e50;
   color: #ccc;
@@ -111,7 +94,9 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
-/*transition: .8s all .3s;*/
+
+nav {
+}
 
 body{
 margin: 0;
