@@ -1,16 +1,17 @@
 body{
-background-color: blue;
+  background-color: rgba(41, 49, 49, 1);
 }
 .lol{
   display: flex;
   position: fixed;
-  border: solid 1px red;
+  border: solid 3px red;
   top: 25vh;
   right: 15px;
   width: 4vw;
   float: right;
   top: 25vh;
   right: 15px;
+  border-image: url(border.gif) 15 round;
 }
 .barredenav{
   list-style-type: none;
@@ -18,7 +19,7 @@ margin: 0;
 padding: 0;
 }
 .lesboutons{
-border: solid 1px green;
+
 }
 .img{
   width: 100%
@@ -26,7 +27,7 @@ border: solid 1px green;
 @media (orientation: portrait) {
 .lol{
   top: 25vh;
-  right: 15px;
+  right: 2px;
   width: 10vw;
 }
 }
