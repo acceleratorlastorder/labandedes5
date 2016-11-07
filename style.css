@@ -11,7 +11,6 @@ background-color: blue;
   float: right;
   top: 25vh;
   right: 15px;
-
 }
 .barredenav{
   list-style-type: none;
@@ -30,5 +29,4 @@ border: solid 1px green;
   right: 15px;
   width: 10vw;
 }
-
 }
