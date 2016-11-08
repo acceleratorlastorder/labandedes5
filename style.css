@@ -97,34 +97,7 @@ h3 {
 
 nav {
 }
-
 body{
 margin: 0;
 background-color: rgba(255, 0, 0, 0.5);
-
-}
-.lol{
-  position: fixed;
-  border: solid 3px red;
-  top: 25vh;
-  right: 15px;
-  width: 4vw;
-  float: right;
-  top: 25vh;
-  right: 15px;
-  border-image: url(border.gif) 15 round;
-}
-.barredenav{
-  list-style-type: none;
-margin: 0;
-padding: 0;
-}
-.img{
-  width: 100%
-}
-@media (orientation: portrait) {
-.lol{
-  top: 25vh;
-  right: 2px;
-  width: 10vw;
 }
