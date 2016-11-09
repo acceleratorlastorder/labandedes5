@@ -99,12 +99,13 @@ margin: 0;
 background-color: rgba(255, 0, 0, 0.5);
 }
 /*okbastory*/
+#okba{
+background-color: purple;
+}
 .okbaimageconteneur1{
 background-color: blue;
 display: flex;
-flex-direction: row;
 height: 100vh;
-margin: 1%;
 }
 .paysages{
   display: flex;
@@ -112,21 +113,35 @@ margin: 1%;
   width: calc(100%*2/3);
 }
 .okbaimage1{
-background-color: purple;
-flex: 50;
+  background-image: url(okbaimage2.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+
 }
 .okbaimage2{
-    background-color: red;
-    flex: 50;
+    background-image: url(okbaimage2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.okbaimage3{
+    background-image: url(okbaimage3.jpg);
+  background-size: contain;
+     transform: rotate(90deg);
+     position: absolute;
+width: 200%;
+height: 200%;
+top: -50%;
+left: -50%;
+      flex: 1;
 }
 .imagehistoire{
-  margin: 1%;
+}
+.imagepaysage{
 }
 .portraits{
 width: calc(100%/3);
 display: flex;
-}
-.okbaimage3{
-  background-color: green;
-  flex: 1
+position: relative;
+overflow: hidden;
 }
