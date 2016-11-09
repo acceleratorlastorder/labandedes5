@@ -129,7 +129,6 @@ height: 50%;
 .okbaimage3{
     background-image: url(okbaimage3.jpg);
     background-size: cover;
-     transform: rotate(90deg);
      position: absolute;
 width: 200%;
 height: 200%;
