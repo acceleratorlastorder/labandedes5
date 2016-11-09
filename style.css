@@ -94,10 +94,36 @@ h3 {
   display: flex;
   justify-content: space-around;
 }
-
-nav {
-}
 body{
 margin: 0;
 background-color: rgba(255, 0, 0, 0.5);
+}
+/*okbastory*/
+.okbaimageconteneur1{
+background-color: blue;
+display: flex;
+flex-direction: row;
+height: 100vh;
+}
+.lespaysages{
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  flex: 75;
+}
+.okbaimg1{
+background-color: purple;
+flex: 1
+}
+.okbaimg2{
+    background-color: red;
+    flex: 1;
+}
+.okbaimg3{
+  background-color: green;
+  flex: 25;
+}
+div{
+
+
 }
