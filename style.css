@@ -108,20 +108,19 @@ height: 100vh;
 .lespaysages{
   display: flex;
   flex-direction: column;
-  width: 75vw;
-  flex: 75;
+  width: calc(100%*2/3);
 }
 .okbaimg1{
 background-color: purple;
-flex: 1
+flex: 50;
 }
 .okbaimg2{
     background-color: red;
-    flex: 1;
+    flex: 50;
 }
 .okbaimg3{
   background-color: green;
-  flex: 25;
+  width: calc(100%/3);
 }
 div{
 
