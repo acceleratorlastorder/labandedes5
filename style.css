@@ -1,103 +1,188 @@
+#menu, #menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
 
-#menu, #menu ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
+#menu li {
+    display: inline-block;
+    position: relative;
 }
-#menu li{
-display:inline-block;
-position:relative;
+
+#menu ul li {
+    display: inherit;
+    border-radius: 0;
 }
-#menu ul li{
-display:inherit;
-border-radius:0;
+
+#menu ul li:hover {
+    border-radius: 0;
 }
-#menu ul li:hover{
-border-radius:0;
+
+#menu ul {
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
 }
-#menu ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+
+#menu li:hover ul {
+    max-height: 15em;
 }
-#menu li:hover ul{
-max-height:15em;
-}
+
+
 /* background des liens menus */
-#menu li{
-background-color: #2c3e50;
+
+#menu li {
+    background-color: #2c3e50;
 }
+
+
 /* background des liens sous menus */
-#menu li li{
-background:#2A2333;
+
+#menu li li {
+    background: #2A2333;
 }
+
+
 /* background des liens menus et sous menus au survol */
-#menu li:hover, #menu li li:hover{
-background:#ccc;
-color: #2c3e50;
+
+#menu li:hover, #menu li li:hover {
+    background: #ccc;
+    color: #2c3e50;
 }
+
+
 /* les a href */
-#menu a{
-text-decoration:none;
-display:block;
-padding:8px 32px;
-color:#fff;
-font-family:arial;
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 32px;
+    color: #fff;
+    font-family: arial;
 }
-#menu ul a{
-padding:8px 0;
+
+#menu ul a {
+    padding: 8px 0;
 }
-#menu li:hover li a{
-color:#fff;
-text-transform:inherit;
+
+#menu li:hover li a {
+    color: #fff;
+    text-transform: inherit;
 }
-#menu li:hover a, #menu li li:hover a{
-color:#000;
+
+#menu li:hover a, #menu li li:hover a {
+    color: #000;
 }
+
+
 /*f: */
+
 #menu>li {
-  width: calc(98%/3);
-  margin:0;
-  padding: 0;
+    width: calc(98%/3);
+    margin: 0;
+    padding: 0;
 }
-menu>li:hover {
-}
+
+menu>li:hover {}
+
 
 /*footer*/
+
 footer, footer ul {
-  list-style: none;
-  color: #2c3e50;
-}
-footer ul, footer li {
-  box-sizing: border-box;
-  margin-left:;
-  padding:0;
-}
-footer {
-  background-color: #ccc;
-  margin: 0;
-}
-h3 {
-  text-align: center;
-  background-color: #2c3e50;
-  color: #ccc;
-  margin: 0;
-}
-.footcontain {
-  display: flex;
-  justify-content: space-around;
+    list-style: none;
+    color: #2c3e50;
 }
 
-nav {
+footer ul, footer li {
+    box-sizing: border-box;
+    margin-left: ;
+    padding: 0;
 }
-body{
-margin: 0;
-background-color: rgba(255, 0, 0, 0.5);
+
+footer {
+    background-color: #ccc;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+    background-color: #2c3e50;
+    color: #ccc;
+    margin: 0;
+}
+
+.footcontain {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {}
+
+.container {
+    margin: 0;
+    padding: 0;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.portrait {
+    width: 30%;
+    height: 94%;
+    margin: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.paysage {
+    width: 63%;
+    height: 45.5%;
+    margin: 1.5%;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+    background-color: yellow;
+    float: left;
+    box-sizing: border-box;
+}
+
+.hoverbutton {
+    position: absolute;
+    right: -17%;
+    bottom: 10%;
+    background-color: #505c69;
+    width: 20%;
+    height: 15%;
+    transition: transform 0.5s;
+    border: 0px;
+}
+
+.hoverbutton a{
+  display: block;
+}
+
+.hoverbutton:hover {
+    transform: translate(-17%, 0px);
 }

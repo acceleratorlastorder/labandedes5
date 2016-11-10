@@ -1,0 +1,19 @@
+
+.hoverbutton {
+    position: absolute;
+    right: -17%;
+    bottom: 10%;
+    background-color: #505c69;
+    width: 20%;
+    height: 15%;
+    transition: transform 0.5s;
+    border: 0px;
+}
+
+.hoverbutton a{
+  display: block;
+}
+
+.hoverbutton:hover {
+    transform: translate(-17%, 0px);
+}
