@@ -115,7 +115,7 @@ margin: 1%;
 }
 .okbaimage1{
   background-image: url(okbaimage1.jpg);
-  background-size: cover;
+  background-size: contain;;
   flex: 1;
 }
 .okbaimage2{
@@ -125,7 +125,7 @@ margin: 1%;
 }
 .okbaimage3{
     background-image: url(okbaimage3.jpg);
-    background-size: cover;
+    background-size: contain;
      transform: rotate(90deg);
      position: absolute;
 width: 200%;
