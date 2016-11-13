@@ -107,6 +107,7 @@ height: 100vh;
 }
 .lesconteneursdimages{
 display: flex;
+position: relative;
 height: 100vh;
 max-height: 100vh;
 margin: 1%;
@@ -118,20 +119,78 @@ margin: 1%;
   position: absolute;
 }
 .okbaimage1div .windows{
-top: 38%;
-left: 20%;
+top: 30%;
+left: 25%;
 max-width: 5%;
 max-height: 5%;
 }
 .okbaimage1div .Guillaumeubuntucasque{
-top: 18%;
+top: 14%;
 left: 45%;
 max-width: 10%;
 max-height: 10%;
 }
-.okbaimage1div:hover{
-
-
+.okbaimage2div .windows{
+    position: absolute;
+top: 89%;
+left: 20%;
+max-width: 5%;
+max-height: 5%;
+}
+.okbaimage2div .Guillaumeubuntucasque{
+    position: absolute;
+top: 72%;
+left: 40%;
+max-width: 10%;
+max-height: 10%;
+}
+.okbaimage1div .bulletexte{
+  position: absolute;
+  border: 1px solid black;
+  width: 17%;
+  top: 27%;
+  left: 18%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.okbaimage1div .ordinateur{
+    position: absolute;
+transform:scaleX(-1);
+max-width: 10%;
+max-height: 10%;
+top: 38%;
+left: 18%;
+max-width: 5%;
+max-height: 5%;
+}
+.okbaimage2div .bulletexte{
+  position: absolute;
+  border: 1px solid black;
+  border-radius: 30%;
+  width: 15%;
+  top: 80%;
+  left: 18%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.okbaimage2div .ordinateur{
+transform:scaleX(-1);
+max-width: 10%;
+max-height: 10%;
+top: 89%;
+left: 18%;
+max-width: 5%;
+max-height: 5%;
+transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.locuteur{
+  font-size: 40%;
+}
+.bulletexte{
+    position: absolute;
+  font-size: 25%;
+}
+.okbaimage1div:hover .ordinateur{
+ transform: rotate(180deg);
+ transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 .paysages{
   display: flex;
