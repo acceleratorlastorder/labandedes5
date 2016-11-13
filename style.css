@@ -100,14 +100,16 @@ background-color: rgba(255, 0, 0, 0.5);
 }
 /*okbastory*/
 #okba{
+  display: flex;
 background-color: purple;
 height: 100vh;
     block-size: 100%;
 }
-.okbaimageconteneur1{
+.lesconteneursdimages{
 background-color: blue;
 display: flex;
 height: 100vh;
+max-height: 100vh;
 margin: 1%;
   block-size: 100%;
   max-width: 100%;
@@ -120,6 +122,7 @@ margin: 1%;
         block-size: 100%;
 }
 .okbaimage1{
+
 }
 .okbaimage2{
 }
@@ -127,48 +130,58 @@ margin: 1%;
   image-orientation: 90deg;
 }
 .okbaimage1div{
-    block-size: 100%;
+
 }
 .okbaimage2div{
-    block-size: 100%;
 }
 .okbaimage3div{
+}
+.paysagesdivs{
+        max-height: 50vh;
 }
 .images{
   display: flex;
   overflow:hidden;
   background-color: green;
+  border: 1px solid black;
   margin: 1%;
   block-size: 100%;
+
 }
 .imagepaysage{
-  max-height: 90%;
+}
+.imageportrait{
+
 }
 .imagehistoire{
+    flex: 1;
   overflow:hidden;
-  border: 2px solid black;
   margin: 1%;
   max-width: 100%;
   max-height: 100%;
 }
 .portraits{
 width: calc(100%/3);
-max-height: 10%;
-flex: 1;
+      max-height: 100vh;
 }
+/*REGLE POUR MOBILE EN PROTRAIT OU TOUT SIMPLEMENT AFFICHAGE PORTRAIT*/
 @media  (orientation:portrait)
 {
-  #okba{
+  .okbaimageconteneur1{
+
 flex-direction: column;
   }
   .paysages{
-    max-height: 100%;
+      max-width: 100%;
+          width: 100%;
   }
   .okbaimage3{
     image-orientation: 90deg;
   }
   .portraits{
-        max-height: 100%;
-width: auto;
+    width: 100%;
+      max-width: 100%;
+      max-height: 100vh;
+
   }
 }
