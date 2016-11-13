@@ -101,34 +101,62 @@ background-color: rgba(255, 0, 0, 0.5);
 /*okbastory*/
 #okba{
 background-color: purple;
+height: 100vh;
 }
 .okbaimageconteneur1{
 background-color: blue;
-width: auto;
 height: 100vh;
-max-width: 100%;
-max-height: 100%;
+margin: 1%;
 }
 .paysages{
-  width: calc(100%*2/3);
-  max-width: 100%;
-  max-height: 100%;
-  background-color: red;
-  float: left;
 }
-.imagepaysage{
-  width: calc(100%*2/3);
-  max-height: 100vh;
+.okbaimage1{
+}
+.okbaimage2{
 }
 .okbaimage3{
-image-orientation: 90deg;
+  image-orientation: 90deg;
 }
-.imagehistoire{
+.okbaimage1div{
+ top: -22%;
+}
+.okbaimage2div{
+ top: 45%;
+}
+.okbaimage3div{
+}
+.images{
+  background-color: green;
+  margin: 1%;
+}
+.paysagediv{
+  left: -18%;
+  position: absolute;
+  width: calc(100%*2/3);
 }
 .imagepaysage{
+  position: absolute;
+transform: scale(0.6, 0.5);
+}
+.imagehistoire{
+  border: 2px solid black;
+  margin: 1%;
 }
 .portraits{
-background-color: yellow;
 width: calc(100%/3);
-object-fit: cover;
+}
+@media  (orientation:portrait)
+{
+  #okba{
+  }
+  .paysages{
+    width: 100%;
+    max-height: 100%;
+  }
+  .okbaimage3{
+    image-orientation: 90deg;
+  }
+  .portraits{
+
+  }
 }
