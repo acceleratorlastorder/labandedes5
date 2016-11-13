@@ -72,6 +72,31 @@ color:#000;
 }
 /*f: */
 
+#felx {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin: 1%;
+}
+
+.paysagesfelix {
+  background: url(img/grue.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.paysages{
+   display: flex;
+   flex-direction: column;
+   width: calc(100%*2/3);
+   height: 50%;
+ }
+
+ .portraits{
+ width: calc(100%/3);
+ display: flex;
+ }
+
 /*footer*/
 footer, footer ul {
   list-style: none;
@@ -114,6 +139,7 @@ background-color: rgba(255, 0, 0, 0.5);
 .clearfix {
   clear: both;
 }
+
 
 .poster {
   height: calc(100vh - 40px);
