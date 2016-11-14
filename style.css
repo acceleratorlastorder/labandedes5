@@ -1,288 +1,129 @@
+    #menu, #menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
 
-#menu, #menu ul{
-padding:0;
-margin:0;
-list-style:none;
-text-align:center;
+#menu li {
+    display: inline-block;
+    position: relative;
 }
-#menu li{
-display:inline-block;
-position:relative;
+
+#menu ul li {
+    display: inherit;
+    border-radius: 0;
 }
-#menu ul li{
-display:inherit;
-border-radius:0;
+
+#menu ul li:hover {
+    border-radius: 0;
 }
-#menu ul li:hover{
-border-radius:0;
+
+#menu ul {
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .8s all .3s;
+    -webkit-transition: .8s all .3s;
+    transition: .8s all .3s;
 }
-#menu ul{
-position:absolute;
-z-index: 1000;
-max-height:0;
-left: 0;
-right: 0;
-overflow:hidden;
--moz-transition: .8s all .3s;
--webkit-transition: .8s all .3s;
-transition: .8s all .3s;
+
+#menu li:hover ul {
+    max-height: 15em;
 }
-#menu li:hover ul{
-max-height:15em;
-}
+
+
 /* background des liens menus */
-#menu li{
-background-color: #2c3e50;
+
+#menu li {
+    background-color: #2c3e50;
 }
+
+
 /* background des liens sous menus */
-#menu li li{
-background:#2A2333;
+
+#menu li li {
+    background: #2A2333;
 }
+
+
 /* background des liens menus et sous menus au survol */
-#menu li:hover, #menu li li:hover{
-background:#ccc;
-color: #2c3e50;
+
+#menu li:hover, #menu li li:hover {
+    background: #ccc;
+    color: #2c3e50;
 }
+
+
 /* les a href */
-#menu a{
-text-decoration:none;
-display:block;
-padding:8px 32px;
-color:#fff;
-font-family:arial;
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 32px;
+    color: #fff;
+    font-family: arial;
 }
-#menu ul a{
-padding:8px 0;
+
+#menu ul a {
+    padding: 8px 0;
 }
-#menu li:hover li a{
-color:#fff;
-text-transform:inherit;
+
+#menu li:hover li a {
+    color: #fff;
+    text-transform: inherit;
 }
-#menu li:hover a, #menu li li:hover a{
-color:#000;
+
+#menu li:hover a, #menu li li:hover a {
+    color: #000;
 }
+
+
 /*f: */
+
 #menu>li {
-  width: calc(98%/3);
-  margin:0;
-  padding: 0;
-}
-menu>li:hover {
-}
-#jessica{
-  width: 100vw;
-  height: 200vh;
-  background-color: red;
-}
-#jessica .photocol{
-  display: inline-block;
-  background-color: blue;
-}
-#jessica .paysage{
-  height: 48vh;
-}
-#jessica .portrait{
-  height: 98vh;
-}
-#jessica img{
-  height: 12vh;
-}
-#jessica .mac1, .mac2, .mac3, .mac4{
-  position: relative;
-  left: -15vw;
-  bottom: 10vh;
-}
-#jessica .mac5, .mac6{
-  position: relative;
-  left: -15vw;
-  bottom: 18vh;
-}
-#jessica .miss1{
-  position: relative;
-  left: -25vw;
-  bottom: 7vh;
-}
-#jessica .miss2, .miss3, .miss4{
-  position: relative;
-  left: -25vw;
-  bottom: 10vh;
-}
-#jessica .miss5, .miss6{
-  position: relative;
-  left: -25vw;
-  bottom: 15vh;
-}
-#jessica .guillmen{
-  left: -5vw;
-  position: relative;
-  top: -78vh;
-}
-#jessica .talkbubble1 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 37vh;
-   left: 13vw;
-   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble1:before {
-   content:"";
-   position: absolute;
-   right: 40%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
-}
-#jessica .talkbubble2 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 37vh;
-   left: 12vw;
-   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble2:before {
-   content:"";
-   position: absolute;
-   right: 50%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
-}
-#jessica .talkbubble3 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 37vh;
-   left: 13vw;   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble3:before {
-   content:"";
-   position: absolute;
-   right: 40%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
-}
-#jessica .talkbubble4 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 37vh;
-   left: 12vw;
-   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble4:before {
-   content:"";
-   position: absolute;
-   right: 35%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
-}
-#jessica .talkbubble5 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 45vh;
-   left: 3vw;
-   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble5:before {
-   content:"";
-   position: absolute;
-   right: 5%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
-}
-#jessica .talkbubble6 {
-   padding: 1em;
-   color: white;
-   width: 40%;
-   bottom: 43vh;
-   left: 3vw;
-   background: rgba(21, 21 ,21 ,0.6);
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
-}
-#jessica .talkbubble6:before {
-   content:"";
-   position: absolute;
-   right: 25%;
-   bottom: -26px;
-   width: 0;
-   height: 0;
-   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
-   border-right: 20px solid transparent;
-   border-left: 20px solid transparent;
+    width: calc(98%/3);
+    margin: 0;
+    padding: 0;
 }
 
-/*footer*/
-footer, footer ul {
-  list-style: none;
-  color: #2c3e50;
-}
-footer ul, footer li {
-  box-sizing: border-box;
-  margin-left:;
-  padding:0;
-}
-footer {
-  background-color: #ccc;
-  margin: 0;
-}
-h3 {
-  text-align: center;
-  background-color: #2c3e50;
-  color: #ccc;
-  margin: 0;
-}
-.footcontain {
-  display: flex;
-  justify-content: space-around;
+menu>li:hover {}
+
+
+/*l'histoire commence*/
+
+.container {
+    background-color: blue;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 80px;
 }
 
-nav {
+.paysage {
+    height: 44vh;
+    max-width: 49%;
+    margin : 2%;
+    float: left; /*ou right ou left */
+    margin-top: 3%;
+
 }
-body{
-margin: 0;
-background-color: rgba(255, 0, 0, 0.5);
+.page{
+  height: 100vh;
+  margin: auto;
+  margin-top: 30px;
+}
+.portrait {
+    height: 98vh;
+    float: right;
+    margin: 1%;
+  }
+.portraitxxx
+{
+width: 30%;
+float: right;
+margin-right: 2%;
 }
