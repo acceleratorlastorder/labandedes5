@@ -1,0 +1,8 @@
+.okbaimage2div:hover .windows {
+    transform: translate(40px, 10px);
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.okbaimage2div:hover .Guillaumeubuntucasque {
+    transform: translate(-40px, 10px);
+}
