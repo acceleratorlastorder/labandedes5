@@ -124,16 +124,15 @@ h3 {
 }
 
 body {
-    margin: auto;
+  margin: auto;
     background-image: url(Matrix_Code.gif);
 }
-
-
 /*okbastory*/
 
 #okba {
     display: flex;
     flex-direction: column;
+        overflow: hidden;
 }
 
 .locuteur {
@@ -145,8 +144,11 @@ body {
 }
 
 .lesconteneursdimages {
+      overflow: hidden;
     display: flex;
     position: relative;
+    height: 100vh;
+    margin: 50px;
 }
 
 .personages, .bulletexte, .ordinateur {
@@ -155,20 +157,21 @@ body {
 
 .paysages {
     display: flex;
-    background-color: blue;
+    background-color: green;
+        width: calc(100%*2/3);
     position: relative;
     flex-direction: column;
+        overflow: hidden;
 }
 
 .imageportrait {}
 
-.paysagesdivs {
-    background-image: url(images/20161103_124230.resized.jpg);
-    background-repeat: no-repeat;
-    background-color: black;
-    background-color: green;
+.portraits {
+    display: flex;
+    background-color: yellow;
+    width: calc(100%/3);
+            overflow: hidden;
 }
-
 .images {
     display: flex;
     overflow: hidden;
@@ -181,26 +184,26 @@ body {
 .imageportrait {}
 
 .okbaimage1div {
-    background-image: url(landscape.jpg);
+      background-image: url(landscape.jpg);
+      background-size: contain;
+      width: 100%;
+      max-width: 100%;
+    	height: auto;
 }
 
 .okbaimage2div {
     background-image: url(landscape.jpg);
+    background-size: contain;
+    max-width: 100%;
+height: auto;
 }
 
 .okbaimage3 {
     background-image: url(portrait.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .imagehistoire {
     overflow: hidden;
-}
-
-.portraits {
-    display: flex;
-    background-color: purple;
 }
 
 
