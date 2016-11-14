@@ -69,6 +69,191 @@ color:#000;
 }
 menu>li:hover {
 }
+#jessica{
+  width: 100vw;
+  height: 200vh;
+  background-color: red;
+}
+#jessica .photocol{
+  display: inline-block;
+  background-color: blue;
+}
+#jessica .paysage{
+  height: 48vh;
+}
+#jessica .portrait{
+  height: 98vh;
+}
+#jessica img{
+  height: 12vh;
+}
+#jessica .mac1, .mac2, .mac3, .mac4{
+  position: relative;
+  left: -15vw;
+  bottom: 10vh;
+}
+#jessica .mac5, .mac6{
+  position: relative;
+  left: -15vw;
+  bottom: 18vh;
+}
+#jessica .miss1{
+  position: relative;
+  left: -25vw;
+  bottom: 7vh;
+}
+#jessica .miss2, .miss3, .miss4{
+  position: relative;
+  left: -25vw;
+  bottom: 10vh;
+}
+#jessica .miss5, .miss6{
+  position: relative;
+  left: -25vw;
+  bottom: 15vh;
+}
+#jessica .guillmen{
+  left: -5vw;
+  position: relative;
+  top: -78vh;
+}
+#jessica .talkbubble1 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 37vh;
+   left: 13vw;
+   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble1:before {
+   content:"";
+   position: absolute;
+   right: 40%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
+#jessica .talkbubble2 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 37vh;
+   left: 12vw;
+   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble2:before {
+   content:"";
+   position: absolute;
+   right: 50%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
+#jessica .talkbubble3 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 37vh;
+   left: 13vw;   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble3:before {
+   content:"";
+   position: absolute;
+   right: 40%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
+#jessica .talkbubble4 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 37vh;
+   left: 12vw;
+   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble4:before {
+   content:"";
+   position: absolute;
+   right: 35%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
+#jessica .talkbubble5 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 45vh;
+   left: 3vw;
+   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble5:before {
+   content:"";
+   position: absolute;
+   right: 5%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
+#jessica .talkbubble6 {
+   padding: 1em;
+   color: white;
+   width: 40%;
+   bottom: 43vh;
+   left: 3vw;
+   background: rgba(21, 21 ,21 ,0.6);
+   position: relative;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
+#jessica .talkbubble6:before {
+   content:"";
+   position: absolute;
+   right: 25%;
+   bottom: -26px;
+   width: 0;
+   height: 0;
+   border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+   border-right: 20px solid transparent;
+   border-left: 20px solid transparent;
+}
 
 /*footer*/
 footer, footer ul {
