@@ -1,35 +1,54 @@
-.personnages{
-position: absolute;
-
+.personnages {
+    position: absolute;
 }
+
+.okbaimage1div .ordi {
+    transform: scaleX(-1);
+    top: 32%;
+    left: 25%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
 .okbaimage1div .windows {
-    top: 60%;
-    right: 50%;
+    top: 32%;
+    left: 28%;
+    max-width: 8%;
+    max-height: 8%;
+    z-index: 1;
+}
+
+.okbaimage1div .guillaumeubuntu {
+    top: 25%;
+    right: 40%;
+    max-width: 40%;
+    max-height: 20%;
+    z-index: 1;
+}
+.okbaimage2div .ordi {
+  transform: scaleX(-1);
+  top: 32%;
+  left: 25%;
+  max-width: 5%;
+  max-height: 5%;
+}
+
+.okbaimage2div .windows {
+    top: 32%;
+    left: 28%;
+    max-width: 8%;
+    max-height: 8%;
+    z-index: 1;
+}
+
+.okbaimage2div .guillaumeubuntu {
+    top: 25%;
+    right: 40%;
     max-width: 40%;
     max-height: 20%;
     z-index: 1;
 }
 
-.okbaimage1div .Guillaumeubuntucasque {
-    top: 14%;
-    left: 45%;
-    max-width: 10%;
-    max-height: 10%;
-}
-
-.okbaimage2div .windows {
-    top: 89%;
-    left: 20%;
-    max-width: 5%;
-    max-height: 5%;
-}
-
-.okbaimage2div .Guillaumeubuntucasque {
-    top: 72%;
-    left: 40%;
-    max-width: 10%;
-    max-height: 10%;
-}
 
 .okbaimage1div .bulletexte {
     border: 1px solid black;
@@ -37,16 +56,6 @@ position: absolute;
     top: 27%;
     left: 18%;
     background-color: rgba(255, 255, 255, 0.8);
-}
-
-.okbaimage1div .ordinateur {
-    transform: scaleX(-1);
-    max-width: 10%;
-    max-height: 10%;
-    top: 15px;
-    left: 18%;
-    max-width: 5%;
-    max-height: 5%;
 }
 
 .okbaimage2div .bulletexte {
@@ -59,7 +68,7 @@ position: absolute;
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-.okbaimage2div .ordinateur {
+.okbaimage2div .ordi {
     transform: scaleX(-1);
     max-width: 10%;
     max-height: 10%;
@@ -69,13 +78,13 @@ position: absolute;
     max-height: 5%;
 }
 
-.portraits .Guillaumeubuntucasque {
+.portraits .guillaumeubuntu {
     top: 50%;
     left: 80%;
     max-width: 35%;
     max-height: 30%;
 }
 
-.Guillaumeubuntucasque {
+.guillaumeubuntu {
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
