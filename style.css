@@ -1,3 +1,7 @@
+body{
+  background-image: url(images/backgroungorange.png);
+  background-repeat: repeat;
+}
     #menu, #menu ul {
         padding: 0;
         margin: 0;
@@ -84,7 +88,6 @@
     /*l'histoire commence*/
 
     .container {
-        background-color: blue;
         max-width: 900px;
         min-width: 600px;
         margin: auto;
@@ -171,13 +174,15 @@
     }
 
     .macscene2 {
-      right: 68%;
-      top: 85%;
+        right: 68%;
+        top: 85%;
     }
+
     .talkbubble.jessica2 {
-      top: 70%;
-      right: 55%;
+        top: 70%;
+        right: 55%;
     }
+
     .macscene3 {
         right: 13%;
         top: 75%;
@@ -194,9 +199,10 @@
         right: 2%;
         top: 1%;
     }
+
     .talkbubble.jessica3 {
-      top: 61%;
-      right: 2%;
+        top: 61%;
+        right: 2%;
     }
 
     .jessicascene4 {
@@ -213,18 +219,20 @@
         top: 20%;
         right: 55%;
     }
+
     .jessicascene5 {
         right: 68%;
         top: 85%;
     }
 
     .macscene5 {
-      right: 72%;
-      top: 85%;
+        right: 72%;
+        top: 85%;
     }
+
     .talkbubble.jessica5 {
-      top: 70%;
-      right: 55%;
+        top: 70%;
+        right: 55%;
     }
 
     .macscene6 {
@@ -240,12 +248,16 @@
     }
 
     .guillaume6 {
-      transform-origin: top 1% right 2%;
-}
-#je_saute_je_tombe #attention_chute:hover{
-      transform: translateX(top 30%) translateY(0);
+        top: 1%;
+        right: 2%;
     }
+
+    #je_saute_je_tombe:hover {
+        transform: translateY(465px);
+        transition: all 1.5s linear;
+    }
+
     .talkbubble.jessica6 {
-      top: 61%;
-      right: 2%;
+        top: 61%;
+        right: 2%;
     }
