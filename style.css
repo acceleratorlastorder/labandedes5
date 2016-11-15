@@ -125,34 +125,67 @@
         height: 10%;
     }
 
+    .talkbubble {
+        width: 40%;
+        height: 2em;
+        background: rgba(21, 21, 21, 0.8);
+        position: absolute;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+    .talkbubble:before {
+        content: "";
+        position: absolute;
+        right: 50%;
+        top: 100%;
+        width: 0;
+        height: 0;
+        border-top: 26px solid rgba(21, 21, 21, 0.8);
+        border-right: 13px solid transparent;
+        border-left: 13px solid transparent;
+    }
+
     .jessicascene1 {
         right: 60%;
         top: 35%;
     }
 
     .macscene1 {
-        right: 55%;
+        right: 72%;
         top: 35%;
     }
 
+    .talkbubble.jessica1 {
+        top: 20%;
+        right: 55%;
+    }
+
     .jessicascene2 {
-        right: 60%;
-        top: 77%;
+        right: 72%;
+        top: 85%;
     }
 
     .macscene2 {
-        right: 55%;
-        top: 75%;
+      right: 68%;
+      top: 85%;
     }
-
+    .talkbubble.jessica2 {
+      top: 70%;
+      right: 55%;
+    }
     .macscene3 {
-        right: 33%;
+        right: 13%;
         top: 75%;
         height: 12%;
     }
 
     .jessicascene3 {
-        right: 30%;
+        right: 18%;
         top: 77%;
         height: 12%;
     }
@@ -161,44 +194,58 @@
         right: 2%;
         top: 1%;
     }
-
-    .macscene4 {
-        right: 33%;
-        top: 95%;
-        height: 12%;
+    .talkbubble.jessica3 {
+      top: 61%;
+      right: 2%;
     }
 
     .jessicascene4 {
-        right: 30%;
-        top: 97%;
-        height: 12%;
+        right: 69%;
+        top: 35%;
+    }
+
+    .macscene4 {
+        right: 72%;
+        top: 35%;
+    }
+
+    .talkbubble.jessica4 {
+        top: 20%;
+        right: 55%;
+    }
+    .jessicascene5 {
+        right: 68%;
+        top: 85%;
     }
 
     .macscene5 {
-        right: 33%;
-        top: 95%;
-        height: 12%;
+      right: 72%;
+      top: 85%;
     }
-
-    .jessicascene5 {
-        right: 30%;
-        top: 97%;
-        height: 12%;
+    .talkbubble.jessica5 {
+      top: 70%;
+      right: 55%;
     }
 
     .macscene6 {
-        right: 33%;
-        top: 75%;
+        right: 1%;
+        top: 68%;
         height: 12%;
     }
 
     .jessicascene6 {
-        right: 30%;
+        right: 18%;
         top: 77%;
         height: 12%;
     }
 
     .guillaume6 {
-        right: 2%;
-        top: 1%;
+      transform-origin: top 1% right 2%;
+}
+#je_saute_je_tombe #attention_chute:hover{
+      transform: translateX(top 30%) translateY(0);
+    }
+    .talkbubble.jessica6 {
+      top: 61%;
+      right: 2%;
     }
