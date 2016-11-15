@@ -182,8 +182,8 @@ menu>li:hover {}
 
 .jehova3 {
     transform: scale(1.8);
-    top:55%;
-    right:8%;
+    top: 55%;
+    right: 8%;
 }
 
 .sylvain1 {
@@ -198,47 +198,49 @@ menu>li:hover {}
     left: 38%;
 }
 
-.sylvain3{
-top:57%;
-right:16%;
-transform: scale(2);
+.sylvain3 {
+    top: 57%;
+    right: 16%;
+    transform: scale(2);
 }
 
-.sylvain4{
-  top:30%;
-  right:35%;
-  transform: scale(2.5);
+.sylvain4 {
+    top: 30%;
+    right: 35%;
+    transform: scale(2.5);
 }
 
-.sylvain5{
-  right:40%;
-  bottom:15%;
-  transform: scale(1.5);
-}
-.jessicasy{
-  transform: scale(1.5);
-  bottom: 15%;
-  right:30%
-}
-.felixsy{
-  transform: scale(1.5);
-  bottom:15%;
-  right:20%
-}
-.jehova4{
-  bottom: 25%;
-  left:17%;
-  transform: scale(6);
-}
-.jehova5{
-top:25%;
-right:25%;
-transform: scale(2);
-}
-.jehova6{
-
+.sylvain5 {
+    right: 40%;
+    bottom: 15%;
+    transform: scale(1.5);
 }
 
+.jessicasy {
+    transform: scale(1.5);
+    bottom: 15%;
+    right: 30%
+}
+
+.felixsy {
+    transform: scale(1.5);
+    bottom: 15%;
+    right: 20%
+}
+
+.jehova4 {
+    bottom: 25%;
+    left: 17%;
+    transform: scale(6);
+}
+
+.jehova5 {
+    top: 25%;
+    right: 25%;
+    transform: scale(2);
+}
+
+.jehova6 {}
 
 .bonhomme {
     position: absolute;
@@ -321,4 +323,38 @@ transform: scale(2);
 .guillaume6 {
     right: 2%;
     top: 1%;
+}
+
+.legende {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    opacity: 0.8;
+    width: 30%;
+}
+
+.bu1 {
+    right: 2%;
+}
+
+.bu2 {
+    right: 34%;
+}
+.bu3{
+  left:4%;
+}
+
+.bu4{
+  width:40%;
+  left:1%;
+}
+.bu5{
+  width:50%;
+  right:6%;
+}
+.bu6{
+width:50%;
+right:6%;
+bottom: 38%;
+
 }
