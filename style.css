@@ -145,21 +145,16 @@ body {
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
-
-.locuteur {
-    font-size: 40%;
-}
-
-.bulletexte {
-    font-size: 25%;
-}
-
 .lesconteneursdimages {
     position: relative;
     display: flex;
     max-height: 100vh;
+        margin: auto;
 }
-
+.test{
+  left: 40%;
+  position: absolute;
+}
 .paysages {
     margin-left: auto;
     display: block;
@@ -193,7 +188,7 @@ body {
     margin: auto;
 }
 
-.okbaimage1div {
+.paysagesdivs1 {
     padding-bottom: 6.2%;
 }
 

@@ -1,81 +1,64 @@
 .personnages {
     position: absolute;
+    ;ordi{
+        transform: scaleX(-1);
+    }
+
+    .locuteur {
+        font-size: 90%;
+    }
+
+}.bulletexte {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.3);
+    font-size: 56%;
+    position: absolute;
+        border-radius: 10px;
+        padding: 4px;
 }
 
-.okbaimage1div .ordi {
-    transform: scaleX(-1);
-    top: 32%;
+.paysagesdivs1 .ordi {
+    top: 34%;
     left: 25%;
     max-width: 5%;
     max-height: 5%;
 }
 
-.okbaimage1div .windows {
-    top: 32%;
+.paysagesdivs1 .windows {
+  top: 34%;
+  left: 28%;
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.paysagesdivs1 .guillaumeubuntu {
+  top: 15%;
+  right: 28%;
+    max-width: 40%;
+    max-height: 20%;
+}
+.paysagesdivs2 .windows {
+    top: 38%;
     left: 28%;
     max-width: 8%;
     max-height: 8%;
-    z-index: 1;
 }
 
-.okbaimage1div .guillaumeubuntu {
-    top: 25%;
-    right: 40%;
-    max-width: 40%;
-    max-height: 20%;
-    z-index: 1;
-}
-.okbaimage2div .ordi {
-  transform: scaleX(-1);
-  top: 32%;
+.paysagesdivs2 .ordi {
+  top: 38%;
   left: 25%;
   max-width: 5%;
   max-height: 5%;
 }
 
-.okbaimage2div .windows {
-    top: 32%;
-    left: 28%;
-    max-width: 8%;
-    max-height: 8%;
-    z-index: 1;
-}
-
-.okbaimage2div .guillaumeubuntu {
-    top: 25%;
-    right: 40%;
+.paysagesdivs2 .guillaumeubuntu {
+  top: 15%;
+  right: 28%;
     max-width: 40%;
     max-height: 20%;
-    z-index: 1;
-}
-
-
-.okbaimage1div .bulletexte {
-    border: 1px solid black;
-    width: 17%;
-    top: 27%;
-    left: 18%;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.okbaimage2div .bulletexte {
-    position: absolute;
-    border: 1px solid black;
-    border-radius: 30%;
-    width: 15%;
-    top: 80%;
-    left: 18%;
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.okbaimage2div .ordi {
-    transform: scaleX(-1);
-    max-width: 10%;
-    max-height: 10%;
-    top: 89%;
-    left: 18%;
-    max-width: 5%;
-    max-height: 5%;
 }
 
 .portraits .guillaumeubuntu {
@@ -87,4 +70,7 @@
 
 .guillaumeubuntu {
     transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.windows{
+  transition: width 4s, height 4s, background-color 4s, transform 4s;
 }

@@ -1,8 +1,15 @@
-.okbaimage2div:hover .windos {
+.paysagesdivs1:hover .bulletexte {
+  display: block;
+}
+
+.paysagesdivs1:hover .guillaumeubuntu {
+    transform: translate(-40px, 10px);
+}
+.paysagesdivs2:hover .windows {
     transform: translate(40px, 10px);
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
 
-.okbaimage2div:hover .Guillaumeubuntucasqe {
+.paysagesdivs2:hover .guillaumeubuntu {
     transform: translate(-40px, 10px);
 }
