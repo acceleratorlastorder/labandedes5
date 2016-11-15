@@ -1,129 +1,204 @@
     #menu, #menu ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-}
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+    }
 
-#menu li {
-    display: inline-block;
-    position: relative;
-}
+    #menu li {
+        display: inline-block;
+        position: relative;
+    }
 
-#menu ul li {
-    display: inherit;
-    border-radius: 0;
-}
+    #menu ul li {
+        display: inherit;
+        border-radius: 0;
+    }
 
-#menu ul li:hover {
-    border-radius: 0;
-}
+    #menu ul li:hover {
+        border-radius: 0;
+    }
 
-#menu ul {
-    position: absolute;
-    z-index: 1000;
-    max-height: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
-}
+    #menu ul {
+        position: absolute;
+        z-index: 1000;
+        max-height: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        -moz-transition: .8s all .3s;
+        -webkit-transition: .8s all .3s;
+        transition: .8s all .3s;
+    }
 
-#menu li:hover ul {
-    max-height: 15em;
-}
+    #menu li:hover ul {
+        max-height: 15em;
+    }
+    /* background des liens menus */
 
+    #menu li {
+        background-color: #2c3e50;
+    }
+    /* background des liens sous menus */
 
-/* background des liens menus */
+    #menu li li {
+        background: #2A2333;
+    }
+    /* background des liens menus et sous menus au survol */
 
-#menu li {
-    background-color: #2c3e50;
-}
+    #menu li:hover, #menu li li:hover {
+        background: #ccc;
+        color: #2c3e50;
+    }
+    /* les a href */
 
+    #menu a {
+        text-decoration: none;
+        display: block;
+        padding: 8px 32px;
+        color: #fff;
+        font-family: arial;
+    }
 
-/* background des liens sous menus */
+    #menu ul a {
+        padding: 8px 0;
+    }
 
-#menu li li {
-    background: #2A2333;
-}
+    #menu li:hover li a {
+        color: #fff;
+        text-transform: inherit;
+    }
 
+    #menu li:hover a, #menu li li:hover a {
+        color: #000;
+    }
+    /*f: */
 
-/* background des liens menus et sous menus au survol */
+    #menu>li {
+        width: calc(98%/3);
+        margin: 0;
+        padding: 0;
+    }
 
-#menu li:hover, #menu li li:hover {
-    background: #ccc;
-    color: #2c3e50;
-}
+    menu>li:hover {}
+    /*l'histoire commence*/
 
+    .container {
+        background-color: blue;
+        max-width: 900px;
+        min-width: 600px;
+        margin: auto;
+        margin-top: 80px;
+        border-bottom: 1px solid red;
+    }
 
-/* les a href */
+    .paysage {
+        height: 44vh;
+        max-width: 49%;
+        margin: 2%;
+        float: left;
+        /*ou right ou left */
+        margin-top: 3%;
+    }
 
-#menu a {
-    text-decoration: none;
-    display: block;
-    padding: 8px 32px;
-    color: #fff;
-    font-family: arial;
-}
+    .page {
+        height: 100vh;
+        margin: auto;
+        margin-top: 30px;
+        position: relative;
+    }
 
-#menu ul a {
-    padding: 8px 0;
-}
+    .portrait {
+        height: 98vh;
+        float: right;
+        margin: 1%;
+    }
 
-#menu li:hover li a {
-    color: #fff;
-    text-transform: inherit;
-}
+    .portraitxxx {
+        width: 30%;
+        float: right;
+        margin-right: 2%;
+    }
 
-#menu li:hover a, #menu li li:hover a {
-    color: #000;
-}
+    .bonhomme {
+        position: absolute;
+        height: 10%;
+    }
 
+    .jessicascene1 {
+        right: 60%;
+        top: 35%;
+    }
 
-/*f: */
+    .macscene1 {
+        right: 55%;
+        top: 35%;
+    }
 
-#menu>li {
-    width: calc(98%/3);
-    margin: 0;
-    padding: 0;
-}
+    .jessicascene2 {
+        right: 60%;
+        top: 77%;
+    }
 
-menu>li:hover {}
+    .macscene2 {
+        right: 55%;
+        top: 75%;
+    }
 
+    .macscene3 {
+        right: 33%;
+        top: 75%;
+        height: 12%;
+    }
 
-/*l'histoire commence*/
+    .jessicascene3 {
+        right: 30%;
+        top: 77%;
+        height: 12%;
+    }
 
-.container {
-    background-color: blue;
-    max-width: 900px;
-    min-width: 600px;
-    margin: auto;
-    margin-top: 80px;
-}
+    .guillaume3 {
+        right: 2%;
+        top: 1%;
+    }
 
-.paysage {
-    height: 44vh;
-    max-width: 49%;
-    margin : 2%;
-    float: left; /*ou right ou left */
-    margin-top: 3%;
+    .macscene4 {
+        right: 33%;
+        top: 95%;
+        height: 12%;
+    }
 
-}
-.page{
-  height: 100vh;
-  margin: auto;
-  margin-top: 30px;
-}
-.portrait {
-    height: 98vh;
-    float: right;
-    margin: 1%;
-  }
-.portraitxxx
-{
-width: 30%;
-float: right;
-margin-right: 2%;
-}
+    .jessicascene4 {
+        right: 30%;
+        top: 97%;
+        height: 12%;
+    }
+
+    .macscene5 {
+        right: 33%;
+        top: 95%;
+        height: 12%;
+    }
+
+    .jessicascene5 {
+        right: 30%;
+        top: 97%;
+        height: 12%;
+    }
+
+    .macscene6 {
+        right: 33%;
+        top: 75%;
+        height: 12%;
+    }
+
+    .jessicascene6 {
+        right: 30%;
+        top: 77%;
+        height: 12%;
+    }
+
+    .guillaume6 {
+        right: 2%;
+        top: 1%;
+    }
