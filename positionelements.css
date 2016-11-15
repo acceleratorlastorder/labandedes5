@@ -1,8 +1,13 @@
+.personnages{
+position: absolute;
+
+}
 .okbaimage1div .windows {
-    top: 30%;
-    left: 21%;
-    max-width: 5%;
-    max-height: 5%;
+    top: 60%;
+    right: 50%;
+    max-width: 40%;
+    max-height: 20%;
+    z-index: 1;
 }
 
 .okbaimage1div .Guillaumeubuntucasque {
