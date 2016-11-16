@@ -1,15 +1,10 @@
-.paysagesdivs1:hover .bulletexte {
+.paysagesdivs1:hover .bubblediv {
+  display: block;
+}
+.paysagesdivs1:hover .guillaumeubuntupense {
   display: block;
 }
 
-.paysagesdivs1:hover .guillaumeubuntu {
-    transform: translate(-40px, 10px);
-}
-.paysagesdivs2:hover .windows {
-    transform: translate(40px, 10px);
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-
 .paysagesdivs2:hover .guillaumeubuntu {
-    transform: translate(-40px, 10px);
+    transform: translate(-150%, 50%);
 }

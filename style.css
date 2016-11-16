@@ -136,25 +136,6 @@ body {
     flex-direction: column;
 }
 
-#talkbubble {
-    width: 120px;
-    height: 80px;
-    background: red;
-    position: relative;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-.lesconteneursdimages {
-    position: relative;
-    display: flex;
-    max-height: 100vh;
-        margin: auto;
-}
-.test{
-  left: 40%;
-  position: absolute;
-}
 .paysages {
     margin-left: auto;
     display: block;
