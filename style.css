@@ -92,10 +92,9 @@ body {
     margin: auto;
     background-image: url(Matrix_Code.gif);
 }
-
-
-/*okbastory*/
-
+#felix{
+  position: relative;
+}
 .poster {
   height: calc(100vh - 40px);
   background: url(images/affichebusface.jpg);
@@ -268,4 +267,143 @@ left: 40em;
     font-weight: normal;
     font-style: normal;
   }
-    /*REGLE POUR MOBILE EN PORTRAIT OU TOUT SIMPLEMENT AFFICHAGE PORTRAIT*/
+  .footlose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .container_foot {
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    align-items: center;
+  }
+
+  .deco {
+    text-align: left;
+    position: relative;
+    background: rgba(3, 169, 244, 0.31);
+    margin: 0;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .p1 {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: url("baclette.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+
+  }
+
+  .p2, .p3, .p4 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .p2 {
+    background-image: url("chicken.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p3 {
+    background-image: url("ben.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p4 {
+    background-image: url("felix.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p5 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url("jessy.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .pix {
+    box-shadow: -3px 6px 10px 1px #2c3e50;
+    border: 3px solid #2c3e50;
+    margin: 5px;
+    height: 100%;
+    width: 20%;
+  }
+
+  .bomb {
+    background-color: #6e1470;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px;
+    transform: scale(0);
+    transition: transform 1.3s;
+  }
+
+  .pix:hover .bomb {
+    transform: scale(1);
+    display: block;
+  }
+
+  .pix:hover {
+    border: 5px solid #6e1470;
+  }
+
+  .imagefooter{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .credit {
+    background-color: rgba(3, 169, 244, 0.31);
+    width: 100%;
+    height: 106px;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .footertext {
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    text-shadow: -5px 5px 10px hsl(36, 100%, 50%);
+  }
