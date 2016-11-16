@@ -145,21 +145,6 @@ body {
 .texteetgui{
   position: absolute;
 }
-/*REGLE POUR MOBILE EN PORTRAIT OU TOUT SIMPLEMENT AFFICHAGE PORTRAIT*/
-
-@media (orientation:portrait) {
-    .okbaimageconteneur {
-        flex-direction: column;
-    }
-    .paysages {
-        margin: 2%;
-        width: 100vw;
-        height: 100vh;
-    }
-    .portraits {
-        width: 100vw;
-    }
-}
 
 .poster {
   height: calc(100vh - 40px);
@@ -170,6 +155,8 @@ body {
   padding: 0;
 }
 .container {
+  display: block;
+  position: absolute;
     background-color: blue;
     max-width: 900px;
     min-width: 600px;
@@ -200,11 +187,6 @@ body {
     margin: 1%;
 }
 
-.portraitxxx {
-    width: 30%;
-    float: right;
-    margin-right: 2%;
-}
 
 .bonhomme {
     position: absolute;
@@ -335,3 +317,19 @@ left: 40em;
          url('ubuntu_font/ubuntu-r-webfont.svg#ubunturegular') format('svg');
     font-weight: normal;
     font-style: normal;
+  }
+    /*REGLE POUR MOBILE EN PORTRAIT OU TOUT SIMPLEMENT AFFICHAGE PORTRAIT*/
+
+@media (orientation:portrait) {
+        .okbaimageconteneur {
+            flex-direction: column;
+        }
+        .paysages {
+            margin: 2%;
+            width: 100vw;
+            height: 100vh;
+        }
+        .portraits {
+            width: 100vw;
+        }
+    }
