@@ -1,0 +1,203 @@
+.personnages, .talkbubbleokba, .bubblediv {
+    position: absolute;
+}
+
+.ordi {
+    transform: scaleX(-1);
+}
+
+.locuteur {
+    font-size: 90%;
+}
+/*okbastory*/
+
+#okba {
+    display: flex;
+    flex-direction: column;
+}
+
+.paysages {
+    margin-left: auto;
+    display: block;
+    right: 1%;
+}
+
+.imagepaysage {
+    margin: auto;
+}
+
+.portraits {
+    top: 1%;
+    margin-right: auto;
+}
+
+.paysagesdivs {
+    position: relative;
+}
+
+.images {}
+
+.imagepaysage {
+    max-width: 80vw;
+    max-height: 45vh;
+}
+
+.imageportrait {
+    position: relative;
+    max-width: 54vw;
+    max-height: 96vh;
+    margin: auto;
+}
+
+.paysagesdivs1 {
+    padding-bottom: 6.2%;
+}
+
+.paysages {
+    position: relative;
+}
+
+.texteetgui{
+  position: absolute;
+}
+
+
+.paysagesdivs1 .talkbubbleokba {
+    padding: 6px;
+    color: white;
+    background: rgba(21, 21, 21, 0.6);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.paysagesdivs1 .talkbubbleokba:before {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid rgba(21, 21, 21, 0.6);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+
+.talkbubbleokba {
+    padding: 6px;
+    color: white;
+    background: rgba(21, 21, 21, 0.6);
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.talkbubbleokba:before {
+    content: "";
+    position: absolute;
+    right: 40%;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid rgba(21, 21, 21, 0.6);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+
+.paysagesdivs1 .guillaumeubuntupense {
+    display: none;
+    position: absolute;
+    top: 12%;
+    left: 68%;
+    color: white;
+}
+
+.lesconteneursdimages {
+    position: relative;
+    display: flex;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.paysagesdivs1 .bubblediv {
+    display: none;
+    top: 7%;
+    left: 18%;
+    width: 25%;
+    position: absolute;
+    z-index: 10;
+}
+
+.paysagesdivs1 .ordi {
+    top: 34%;
+    left: 25%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.paysagesdivs1 .windows {
+    top: 34%;
+    left: 28%;
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.paysagesdivs1 .guillaumeubuntu {
+    top: 15%;
+    right: 28%;
+    max-width: 40%;
+    max-height: 20%;
+}
+
+.paysagesdivs2 .talkbubbleokba {
+    display: none;
+    top: 10%;
+    left: 50%;
+}
+
+.paysagesdivs2 .windows {
+    top: 38%;
+    left: 28%;
+    max-width: 8%;
+    max-height: 8%;
+}
+
+.paysagesdivs2 .ordi {
+    top: 38%;
+    left: 25%;
+    max-width: 5%;
+    max-height: 5%;
+}
+
+.paysagesdivs2 .guillaumeubuntu {
+    top: 15%;
+    right: 28%;
+    max-width: 40%;
+    max-height: 20%;
+}
+
+.portraits .guillaumeubuntu {
+    top: 50%;
+    left: 80%;
+    max-width: 35%;
+    max-height: 30%;
+}
+
+
+
+
+@media (orientation:portrait) {
+    .okbaimageconteneur {
+        flex-direction: column;
+    }
+    .paysages {
+        margin: 2%;
+        width: 100vw;
+        height: 100vh;
+    }
+    .portraits {
+        width: 100vw;
+    }
+}

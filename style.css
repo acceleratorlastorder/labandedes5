@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#menu>li:first-child {
+  float:left;
+}
+#menu>li:nth-child(2) {
+  float:right;
+}
+#menu>li {
+  width: 20%;
+}/*<f*/
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+#menu li{
+display:inline-block;
+position:relative;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul li:hover{
+border-radius:0;
+background-color: #888;
+}
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu li{
+background-color: #2f1249;
+}
+/* background des liens sous menus */
+#menu li li{
+background:#6e1470;
+}
+/* background des liens menus et sous menus au survol- modifié pour changer la couleur au survol */
+#menu li:hover {
+background:#ccc;
+color: #2c3e50;
+}
+/* les a href */
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+}
+#menu ul a{
+padding:8px 0;
+}
+#menu li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu li:hover a, #menu li li:hover a{
+color:#000;
+
+}
+/*footer*/
+
+nav {
+  background-color: #2f1249;
+  height: 34px;
+}
+header {
+  font-family: ubunturegular;
+}
+h1 {
+  text-align: center;
+  color: #6e1470;
+  text-shadow: 2px 2px 0 orange;
+  font-size: 2.5em;
+}
+
+body {
+    margin: auto;
+    background-image: url(Matrix_Code.gif);
+}
+#felix{
+  position: relative;
+}
+.poster {
+  height: calc(100vh - 40px);
+  background: url(images/affichebusface.jpg);
+  background-size: cover;
+  background-position: ;
+  border: 3px solid #2f1249;
+  padding: 0;
+}
+.container {
+  display: block;
+  position: absolute;
+    background-color: blue;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    border-bottom: 1px solid red;
+}
+
+.paysagefel {
+    height: 44vh;
+    max-width: 49%;
+    margin: 2%;
+    float: left;
+    /*ou right ou left */
+    margin-top: 3%;
+}
+
+.page {
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.portraitfel {
+    height: 98vh;
+    float: right;
+    margin: 1%;
+}
+
+
+.bonhomme {
+    position: absolute;
+    height: 10%;
+}
+.talkbubble {
+width:40%;
+height:2em;
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding-top: 1em;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.talkbubble:before {
+content: "";
+position: absolute;
+right: 50%;
+top: 100%;
+width: 0;
+width: 0;
+border-top: 26px solid rgba(0, 0, 0, 0.2);
+border-right: 13px solid transparent;
+border-left: 13px solid transparent;
+}
+/*classes du roman de felix*/
+.felx1 {
+top: 6em;
+left: 6em;
+}
+.ubuntu1 {
+top: 6.5em;
+left: 3.5em;
+}
+.felx2 {
+top: 27em;
+left: 9em;
+}
+.ubuntu2 {
+top: 26.2em;
+left: 7.5em;
+transform: rotate(20deg);
+}
+.felx3 {
+top: 14em;
+left: 36em;
+}
+.ubuntu3 {
+top: 13em;
+left: 34em;
+}
+.felx4 {
+top: 3.7em;
+left: 18em;
+}
+.ubuntu4 {
+top: 3.9em;
+left: 16em;
+}
+.felx5 {
+top: 25em;
+left: 19.2em;
+
+}
+.ubuntu5 {
+top: 25.2em;
+left: 17em;
+}
+.felx6 {
+top: 12.8em;
+left: 44em;
+
+}
+.ubuntu6 {
+top: 12.9em;
+left: 40em;
+}
+.talkbubble.pointtop:before {
+  top:-53%;
+  right: 44%;
+  border-top: none;
+  border-bottom: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+}
+.pointbotleft1.talkbubble:before {
+  top: 100%;
+  left: 16%;
+  border-top: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+}
+
+.felixplanche1 .talkbubble:first-child {
+  top: 50%;
+}
+.felixplanche1 .talkbubble:nth-child(2) {
+  top: 75%;
+}
+.felixplanche1 .talkbubble:nth-child(3) {
+  top: 3%;
+  left: 55%;
+  height: 3em;
+}
+.felixplanche1 .talkbubble:nth-child(4) {
+  top: 14%;
+  left: 65%;
+  width: 30%;
+  height: 4em;
+}
+.felixplanche1 .talkbubble:nth-child(5) {
+  top: 48%;
+  left: 55%;
+  height: 4em;
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('ubuntu_font/ubuntu-r-webfont.eot');
+    src: url('ubuntu_font/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu_font/ubuntu-r-webfont.woff2') format('woff2'),
+         url('ubuntu_font/ubuntu-r-webfont.woff') format('woff'),
+         url('ubuntu_font/ubuntu-r-webfont.ttf') format('truetype'),
+         url('ubuntu_font/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .footlose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .container_foot {
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    margin: auto;
+    height: 50%;
+    width: 80%;
+    align-items: center;
+  }
+
+  .deco {
+    text-align: left;
+    position: relative;
+    background: rgba(3, 169, 244, 0.31);
+    margin: 0;
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    font-size: 25px;
+  }
+
+  .p1 {
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-image: url("baclette.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+
+  }
+
+  .p2, .p3, .p4 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .p2 {
+    background-image: url("chicken.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p3 {
+    background-image: url("ben.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p4 {
+    background-image: url("felix.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .p5 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-image: url("jessy.jpg");
+    position: relative;
+    background-size: contain;
+    background-size: 100%;
+    width: auto;
+  }
+
+  .pix {
+    box-shadow: -3px 6px 10px 1px #2c3e50;
+    border: 3px solid #2c3e50;
+    margin: 5px;
+    height: 100%;
+    width: 20%;
+  }
+
+  .bomb {
+    background-color: #6e1470;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px;
+    transform: scale(0);
+    transition: transform 1.3s;
+  }
+
+  .pix:hover .bomb {
+    transform: scale(1);
+    display: block;
+  }
+
+  .pix:hover {
+    border: 5px solid #6e1470;
+  }
+
+  .imagefooter{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .credit {
+    background-color: rgba(3, 169, 244, 0.31);
+    width: 100%;
+    height: 106px;
+    margin: 0;
+    z-index: 1;
+  }
+
+  .footertext {
+    font-style: italic;
+    font-weight: bolder;
+    margin-bottom: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    color: #2c3e50;
+    text-shadow: -5px 5px 10px hsl(36, 100%, 50%);
+  }
