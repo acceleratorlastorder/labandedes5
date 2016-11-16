@@ -1,8 +1,9 @@
 .paysagesdivs1:hover .bubblediv {
-  display: block;
+    display: block;
 }
+
 .paysagesdivs1:hover .guillaumeubuntupense {
-  display: block;
+    display: block;
 }
 
 .paysagesdivs2:hover .guillaumeubuntu {
@@ -10,22 +11,14 @@
 }
 
 .paysagesdivs2:hover .talkbubble {
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-
-display: block;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    display: block;
 }
-
-
-
-
-
-
-
-
 
 .guillaumeubuntu {
     transition: width 2s, height 2s, background-color 2s, transform 2s;
 }
-.windows{
-  transition: width 4s, height 4s, background-color 4s, transform 4s;
+
+.windows {
+    transition: width 4s, height 4s, background-color 4s, transform 4s;
 }
