@@ -8,3 +8,24 @@
 .paysagesdivs2:hover .guillaumeubuntu {
     transform: translate(-150%, 50%);
 }
+
+.paysagesdivs2:hover .talkbubble {
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+
+display: block;
+}
+
+
+
+
+
+
+
+
+
+.guillaumeubuntu {
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+.windows{
+  transition: width 4s, height 4s, background-color 4s, transform 4s;
+}

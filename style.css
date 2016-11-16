@@ -177,7 +177,9 @@ body {
     position: relative;
 }
 
-
+.texteetgui{
+  position: absolute;
+}
 /*REGLE POUR MOBILE EN PORTRAIT OU TOUT SIMPLEMENT AFFICHAGE PORTRAIT*/
 
 @media (orientation:portrait) {

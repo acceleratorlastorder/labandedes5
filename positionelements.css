@@ -1,4 +1,4 @@
-.personnages{
+.personnages, .talkbubble, .bubblediv{
     position: absolute;
     }
     .ordi{
@@ -8,7 +8,8 @@
 .locuteur {
     font-size: 90%;
 }
-.talkbubble1 {
+
+.paysagesdivs1 .talkbubble {
 
    padding: 6px;
    color: white;
@@ -18,14 +19,8 @@
    -webkit-border-radius: 10px;
    border-radius:         10px;
 }
-.guillaumeubuntupense{
-  display: none;
-     position: absolute;
-     top:12%;
-     left: 68%;
-        color: white;
-}
-.talkbubble1:before {
+
+.paysagesdivs1 .talkbubble:before {
    content:"";
    position: absolute;
    right: 40%;
@@ -36,6 +31,37 @@
    border-right: 20px solid transparent;
    border-left: 20px solid transparent;
  }
+
+.talkbubble {
+
+    padding: 6px;
+    color: white;
+    background: rgba(21, 21 ,21 ,0.6);
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+ }
+
+.talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 40%;
+    bottom: -26px;
+    width: 0;
+    height: 0;
+    border-top: 26px solid rgba(21, 21 ,21 ,0.6);
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+  }
+
+ .paysagesdivs1 .guillaumeubuntupense{
+   display: none;
+      position: absolute;
+      top:12%;
+      left: 68%;
+         color: white;
+ }
 .lesconteneursdimages {
     position: relative;
     display: flex;
@@ -44,8 +70,8 @@
 }
 .paysagesdivs1 .bubblediv{
       display: none;
-  top:16%;
-  left: 17.5%;
+  top:7%;
+  left: 18%;
      width: 25%;
   position: absolute;
   z-index: 10;
@@ -70,6 +96,17 @@
     max-width: 40%;
     max-height: 20%;
 }
+
+
+
+
+.paysagesdivs2 .talkbubble{
+  display: none;
+top: 10%;
+  left: 50%;
+}
+
+
 .paysagesdivs2 .windows {
     top: 38%;
     left: 28%;
@@ -96,11 +133,4 @@
     left: 80%;
     max-width: 35%;
     max-height: 30%;
-}
-
-.guillaumeubuntu {
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-.windows{
-  transition: width 4s, height 4s, background-color 4s, transform 4s;
 }
