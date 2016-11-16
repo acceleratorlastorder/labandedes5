@@ -1,126 +1,91 @@
-#menu, #menu ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+#menu>li:first-child {
+  float:left;
 }
-
-#menu li {
-    display: inline-block;
-    position: relative;
+#menu>li:nth-child(2) {
+  float:right;
 }
-
-#menu ul li {
-    display: inherit;
-    border-radius: 0;
-}
-
-#menu ul li:hover {
-    border-radius: 0;
-}
-
-#menu ul {
-    position: absolute;
-    z-index: 1000;
-    max-height: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    -moz-transition: .8s all .3s;
-    -webkit-transition: .8s all .3s;
-    transition: .8s all .3s;
-}
-
-#menu li:hover ul {
-    max-height: 15em;
-}
-
-
-/* background des liens menus */
-
-#menu li {
-    background-color: #2c3e50;
-}
-
-
-/* background des liens sous menus */
-
-#menu li li {
-    background: #2A2333;
-}
-
-
-/* background des liens menus et sous menus au survol */
-
-#menu li:hover, #menu li li:hover {
-    background: #ccc;
-    color: #2c3e50;
-}
-
-
-/* les a href */
-
-#menu a {
-    text-decoration: none;
-    display: block;
-    padding: 8px 32px;
-    color: #fff;
-    font-family: arial;
-}
-
-#menu ul a {
-    padding: 8px 0;
-}
-
-#menu li:hover li a {
-    color: #fff;
-    text-transform: inherit;
-}
-
-#menu li:hover a, #menu li li:hover a {
-    color: #000;
-}
-
-
-/*f: */
-
 #menu>li {
-    width: calc(98%/3);
-    margin: 0;
-    padding: 0;
+  width: 20%;
+}/*<f*/
+#menu, #menu ul{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
 }
+#menu li{
+display:inline-block;
+position:relative;
+}
+#menu ul li{
+display:inherit;
+border-radius:0;
+}
+#menu ul li:hover{
+border-radius:0;
+background-color: #888;
+}
+#menu ul{
+position:absolute;
+z-index: 1000;
+max-height:0;
+left: 0;
+right: 0;
+overflow:hidden;
+-moz-transition: .8s all .3s;
+-webkit-transition: .8s all .3s;
+transition: .8s all .3s;
+}
+#menu li:hover ul{
+max-height:15em;
+}
+/* background des liens menus */
+#menu li{
+background-color: #2f1249;
+}
+/* background des liens sous menus */
+#menu li li{
+background:#6e1470;
+}
+/* background des liens menus et sous menus au survol- modifié pour changer la couleur au survol */
+#menu li:hover {
+background:#ccc;
+color: #2c3e50;
+}
+/* les a href */
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+}
+#menu ul a{
+padding:8px 0;
+}
+#menu li:hover li a{
+color:#fff;
+text-transform:inherit;
+}
+#menu li:hover a, #menu li li:hover a{
+color:#000;
 
-menu>li:hover {}
-
-
+}
 /*footer*/
 
-footer, footer ul {
-    list-style: none;
-    color: #2c3e50;
+nav {
+  background-color: #2f1249;
+  height: 34px;
 }
-
-footer ul, footer li {
-    box-sizing: border-box;
-    margin-left: ;
-    padding: 0;
+header {
+  font-family: ubunturegular;
 }
-
-footer {
-    background-color: #ccc;
-    margin: 0;
-}
-
-h3 {
-    text-align: center;
-    background-color: #2c3e50;
-    color: #ccc;
-    margin: 0;
-}
-
-.footcontain {
-    display: flex;
-    justify-content: space-around;
+h1 {
+  text-align: center;
+  color: #6e1470;
+  text-shadow: 2px 2px 0 orange;
+  font-size: 2.5em;
 }
 
 body {
@@ -195,3 +160,178 @@ body {
         width: 100vw;
     }
 }
+
+.poster {
+  height: calc(100vh - 40px);
+  background: url(images/affichebusface.jpg);
+  background-size: cover;
+  background-position: ;
+  border: 3px solid #2f1249;
+  padding: 0;
+}
+.container {
+    background-color: blue;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    border-bottom: 1px solid red;
+}
+
+.paysage {
+    height: 44vh;
+    max-width: 49%;
+    margin: 2%;
+    float: left;
+    /*ou right ou left */
+    margin-top: 3%;
+}
+
+.page {
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+
+.portrait {
+    height: 98vh;
+    float: right;
+    margin: 1%;
+}
+
+.portraitxxx {
+    width: 30%;
+    float: right;
+    margin-right: 2%;
+}
+
+.bonhomme {
+    position: absolute;
+    height: 10%;
+}
+.talkbubble {
+width:40%;
+height:2em;
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding-top: 1em;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+-webkit-border-radius: 10px;
+}
+.talkbubble:before {
+content: "";
+position: absolute;
+right: 50%;
+top: 100%;
+width: 0;
+width: 0;
+border-top: 26px solid rgba(0, 0, 0, 0.2);
+border-right: 13px solid transparent;
+border-left: 13px solid transparent;
+}
+/*classes du roman de felix*/
+.felx1 {
+top: 6em;
+left: 6em;
+}
+.ubuntu1 {
+top: 6.5em;
+left: 3.5em;
+}
+.felx2 {
+top: 27em;
+left: 9em;
+}
+.ubuntu2 {
+top: 26.2em;
+left: 7.5em;
+transform: rotate(20deg);
+}
+.felx3 {
+top: 14em;
+left: 36em;
+}
+.ubuntu3 {
+top: 13em;
+left: 34em;
+}
+.felx4 {
+top: 3.7em;
+left: 18em;
+}
+.ubuntu4 {
+top: 3.9em;
+left: 16em;
+}
+.felx5 {
+top: 25em;
+left: 19.2em;
+
+}
+.ubuntu5 {
+top: 25.2em;
+left: 17em;
+}
+.felx6 {
+top: 12.8em;
+left: 44em;
+
+}
+.ubuntu6 {
+top: 12.9em;
+left: 40em;
+}
+.talkbubble.pointtop:before {
+  top:-53%;
+  right: 44%;
+  border-top: none;
+  border-bottom: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+}
+.pointbotleft1.talkbubble:before {
+  top: 100%;
+  left: 16%;
+  border-top: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+}
+
+.felixplanche1 .talkbubble:first-child {
+  top: 50%;
+}
+.felixplanche1 .talkbubble:nth-child(2) {
+  top: 75%;
+}
+.felixplanche1 .talkbubble:nth-child(3) {
+  top: 3%;
+  left: 55%;
+  height: 3em;
+}
+.felixplanche1 .talkbubble:nth-child(4) {
+  top: 14%;
+  left: 65%;
+  width: 30%;
+  height: 4em;
+}
+.felixplanche1 .talkbubble:nth-child(5) {
+  top: 48%;
+  left: 55%;
+  height: 4em;
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('ubuntu_font/ubuntu-r-webfont.eot');
+    src: url('ubuntu_font/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ubuntu_font/ubuntu-r-webfont.woff2') format('woff2'),
+         url('ubuntu_font/ubuntu-r-webfont.woff') format('woff'),
+         url('ubuntu_font/ubuntu-r-webfont.ttf') format('truetype'),
+         url('ubuntu_font/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
