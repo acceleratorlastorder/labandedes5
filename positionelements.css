@@ -1,4 +1,4 @@
-.personnages, .talkbubble, .bubblediv {
+.personnages, .talkbubbleokba, .bubblediv {
     position: absolute;
 }
 
@@ -9,8 +9,60 @@
 .locuteur {
     font-size: 90%;
 }
+/*okbastory*/
 
-.paysagesdivs1 .talkbubble {
+#okba {
+    display: flex;
+    flex-direction: column;
+}
+
+.paysages {
+    margin-left: auto;
+    display: block;
+    right: 1%;
+}
+
+.imagepaysage {
+    margin: auto;
+}
+
+.portraits {
+    top: 1%;
+    margin-right: auto;
+}
+
+.paysagesdivs {
+    position: relative;
+}
+
+.images {}
+
+.imagepaysage {
+    max-width: 80vw;
+    max-height: 45vh;
+}
+
+.imageportrait {
+    position: relative;
+    max-width: 54vw;
+    max-height: 96vh;
+    margin: auto;
+}
+
+.paysagesdivs1 {
+    padding-bottom: 6.2%;
+}
+
+.paysages {
+    position: relative;
+}
+
+.texteetgui{
+  position: absolute;
+}
+
+
+.paysagesdivs1 .talkbubbleokba {
     padding: 6px;
     color: white;
     background: rgba(21, 21, 21, 0.6);
@@ -20,7 +72,7 @@
     border-radius: 10px;
 }
 
-.paysagesdivs1 .talkbubble:before {
+.paysagesdivs1 .talkbubbleokba:before {
     content: "";
     position: absolute;
     right: 40%;
@@ -32,7 +84,7 @@
     border-left: 20px solid transparent;
 }
 
-.talkbubble {
+.talkbubbleokba {
     padding: 6px;
     color: white;
     background: rgba(21, 21, 21, 0.6);
@@ -42,7 +94,7 @@
     border-radius: 10px;
 }
 
-.talkbubble:before {
+.talkbubbleokba:before {
     content: "";
     position: absolute;
     right: 40%;
@@ -99,7 +151,7 @@
     max-height: 20%;
 }
 
-.paysagesdivs2 .talkbubble {
+.paysagesdivs2 .talkbubbleokba {
     display: none;
     top: 10%;
     left: 50%;
@@ -131,4 +183,21 @@
     left: 80%;
     max-width: 35%;
     max-height: 30%;
+}
+
+
+
+
+@media (orientation:portrait) {
+    .okbaimageconteneur {
+        flex-direction: column;
+    }
+    .paysages {
+        margin: 2%;
+        width: 100vw;
+        height: 100vh;
+    }
+    .portraits {
+        width: 100vw;
+    }
 }

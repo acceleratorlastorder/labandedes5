@@ -10,7 +10,7 @@
     transform: translate(-150%, 50%);
 }
 
-.paysagesdivs2:hover .talkbubble {
+.paysagesdivs2:hover .talkbubbleokba {
     transition: width 2s, height 2s, background-color 2s, transform 2s;
     display: block;
 }
