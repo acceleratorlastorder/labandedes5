@@ -60,8 +60,6 @@ text-decoration:none;
 display:block;
 padding:8px 32px;
 color:#fff;
-font-family: ubunturegular;
-;
 }
 #menu ul a{
 padding:8px 0;
@@ -72,91 +70,27 @@ text-transform:inherit;
 }
 #menu li:hover a, #menu li li:hover a{
 color:#000;
-}
-/*f: */
-
-#felix {
-  display: flex;
-  flex-direction: row;
-  height: 100vh;
-}
-
-.paysagesfelix {
-  background: url(img/grue2.jpg);
-  background-size: contain;
-  background-position:center;
-}
-
-.feliximage img {
-  width: 100px;
-  position: relative;
-}
-/* 2 classes pour les img piskel*/
-.fesw1 {
-  top:160px;
-  left:50px;
-}
-
-.ubsw1 {
-  top:170px;
-  left:50px;
 
 }
-<<<<<<< HEAD
-
-.paysages {
-   display: flex;
-   flex-direction: column;
-   width: 996px;
-   height: 560px;
- }
-
-.portraits {
-   width: calc(100vw/3);
-   display: flex;
-   height: 100%;
-   background: img/grue2_portrait;
- }
-
-||||||| merged common ancestors
-
-=======
->>>>>>> b7fab7859f4376e05f70722502e34ac686c3fe0d
 /*footer*/
-footer, footer ul {
-  list-style: none;
-  color: #2c3e50;
-}
-footer ul, footer li {
-  box-sizing: border-box;
-  padding:0;
-}
-footer {
-  background-color: #ccc;
-  margin: 0;
-}
-h3 {
-  text-align: center;
-  background-color: #2c3e50;
-  color: #ccc;
-  margin: 0;
-}
+
 nav {
   background-color: #2f1249;
   height: 34px;
 }
-.footcontain {
-  display: flex;
-  justify-content: space-around;
+header {
+  font-family: ubunturegular;
+}
+h1 {
+  text-align: center;
+  color: #6e1470;
+  text-shadow: 2px 2px 0 orange;
+  font-size: 2.5em;
 }
 
 body{
 margin: 0;
 background-color: rgba(255, 0, 0, 0.5);
-}
-
-.clearfix {
-  clear: both;
 }
 
 .poster {
@@ -167,161 +101,162 @@ background-color: rgba(255, 0, 0, 0.5);
   border: 3px solid #2f1249;
   padding: 0;
 }
+.container {
+    background-color: blue;
+    max-width: 900px;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    border-bottom: 1px solid red;
+}
 
-@media (orientation: portrait) {
-.lol{
-  top: 25vh;
-  right: 2px;
-  width: 10vw;
-  }
+.paysage {
+    height: 44vh;
+    max-width: 49%;
+    margin: 2%;
+    float: left;
+    /*ou right ou left */
+    margin-top: 3%;
 }
-||||||| merged common ancestors
-=======
-/*okbastory*/
-#okba{
-  display: flex;
-  flex-direction: column;
-background-color: purple;
-height: 100vh;
-    block-size: 100%;
+
+.page {
+    height: 100vh;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
 }
-.lesconteneursdimages{
-display: flex;
-position: relative;
-height: 100vh;
-max-height: 100vh;
-margin: 1%;
-  block-size: 100%;
-  max-width: 100%;
-  max-height: 100%;
+
+.portrait {
+    height: 98vh;
+    float: right;
+    margin: 1%;
 }
-.personnages{
-  position: absolute;
-  height: 50px;
+
+.portraitxxx {
+    width: 30%;
+    float: right;
+    margin-right: 2%;
 }
-.okbaimage1div .windows{
-top: 30%;
-left: 25%;
-max-width: 5%;
-max-height: 5%;
-}
-.okbaimage1div .Guillaumeubuntucasque{
-top: 14%;
-left: 45%;
-max-width: 10%;
-max-height: 10%;
-}
-.okbaimage2div .windows{
+
+.bonhomme {
     position: absolute;
-top: 89%;
-left: 20%;
-max-width: 5%;
-max-height: 5%;
+    height: 10%;
 }
-.okbaimage2div .Guillaumeubuntucasque{
-    position: absolute;
-top: 72%;
-left: 40%;
-max-width: 10%;
-max-height: 10%;
+.talkbubble {
+width:40%;
+height:2em;
+background: rgba(0, 0, 0, 0.5);
+position: absolute;
+border-radius: 10px;
+color: white;
+text-align: center;
+padding-top: 1em;
+-moz-border-radius: 10px;
+-o-border-radius: 10px;
+-webkit-border-radius: 10px;
 }
-.okbaimage1div .bulletexte{
-  position: absolute;
-  border: 1px solid black;
-  width: 17%;
-  top: 27%;
-  left: 18%;
-  background-color: rgba(255, 255, 255, 0.8);
+.talkbubble:before {
+content: "";
+position: absolute;
+right: 50%;
+top: 100%;
+width: 0;
+width: 0;
+border-top: 26px solid rgba(0, 0, 0, 0.2);
+border-right: 13px solid transparent;
+border-left: 13px solid transparent;
 }
-.okbaimage1div .ordinateur{
-    position: absolute;
-transform:scaleX(-1);
-max-width: 10%;
-max-height: 10%;
-top: 38%;
-left: 18%;
-max-width: 5%;
-max-height: 5%;
+/*classes du roman de felix*/
+.felx1 {
+top: 6em;
+left: 6em;
 }
-.okbaimage2div .bulletexte{
-  position: absolute;
-  border: 1px solid black;
-  border-radius: 30%;
-  width: 15%;
-  top: 80%;
-  left: 18%;
-  background-color: rgba(255, 255, 255, 0.8);
+.ubuntu1 {
+top: 6.5em;
+left: 3.5em;
 }
-.okbaimage2div .ordinateur{
-transform:scaleX(-1);
-max-width: 10%;
-max-height: 10%;
-top: 89%;
-left: 18%;
-max-width: 5%;
-max-height: 5%;
-transition: width 2s, height 2s, background-color 2s, transform 2s;
+.felx2 {
+top: 27em;
+left: 9em;
 }
-.locuteur{
-  font-size: 40%;
+.ubuntu2 {
+top: 26.2em;
+left: 7.5em;
+transform: rotate(20deg);
 }
-.bulletexte{
-    position: absolute;
-  font-size: 25%;
+.felx3 {
+top: 14em;
+left: 36em;
 }
-.okbaimage1div:hover .ordinateur{
- transform: rotate(180deg);
- transition: width 2s, height 2s, background-color 2s, transform 2s;
+.ubuntu3 {
+top: 13em;
+left: 34em;
 }
-.paysages{
-  display: flex;
-  flex-direction: column;
-  width: calc(100%*2/3);
-        block-size: 100%;
+.felx4 {
+top: 3.7em;
+left: 18em;
 }
-.okbaimage1{
+.ubuntu4 {
+top: 3.9em;
+left: 16em;
+}
+.felx5 {
+top: 25em;
+left: 19.2em;
 
 }
-.okbaimage2{
+.ubuntu5 {
+top: 25.2em;
+left: 17em;
 }
-.okbaimage3{
-  image-orientation: 90deg;
-}
-.okbaimage1div{
+.felx6 {
+top: 12.8em;
+left: 44em;
 
 }
-.okbaimage2div{
+.ubuntu6 {
+top: 12.9em;
+left: 40em;
 }
-.okbaimage3div{
+.talkbubble.pointtop:before {
+  top:-53%;
+  right: 44%;
+  border-top: none;
+  border-bottom: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
 }
-.paysagesdivs{
-        max-height: 50vh;
+.pointbotleft1.talkbubble:before {
+  top: 100%;
+  left: 16%;
+  border-top: 26px solid rgba(0, 0, 0, 0.2);
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
 }
-.images{
-  display: flex;
-  overflow:hidden;
-  margin: 1%;
-  block-size: 100%;
 
+.felixplanche1 .talkbubble:first-child {
+  top: 50%;
 }
-.imagepaysage{
+.felixplanche1 .talkbubble:nth-child(2) {
+  top: 75%;
 }
-.imageportrait{
+.felixplanche1 .talkbubble:nth-child(3) {
+  top: 3%;
+  left: 55%;
+  height: 3em;
+}
+.felixplanche1 .talkbubble:nth-child(4) {
+  top: 14%;
+  left: 65%;
+  width: 30%;
+  height: 4em;
+}
+.felixplanche1 .talkbubble:nth-child(5) {
+  top: 48%;
+  left: 55%;
+  height: 4em;
+}
 
-}
-
-
-.imagehistoire{
-    flex: 1;
-  overflow:hidden;
-  margin: 1%;
-  max-width: 100%;
-  max-height: 100%;
-}
-.portraits{
-width: calc(100%/3);
-      max-height: 100vh;
-}
 @font-face {
     font-family: 'ubunturegular';
     src: url('ubuntu_font/ubuntu-r-webfont.eot');
@@ -353,4 +288,3 @@ flex-direction: column;
       max-height: 100vh;
   }
 }
->>>>>>> b7fab7859f4376e05f70722502e34ac686c3fe0d
